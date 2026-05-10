@@ -32,15 +32,6 @@ public class Account {
         trxList.add(trx);
     }
 
-//
-//    public void showTransactionHistory (){
-//        int srNum = 1;
-//        System.out.println("Sr.Num. | Trx Status | Trx Type | Trx Amount | Remaining Balance | Date and Time ");
-//        for (Transactions transaction : trxList){
-//            System.out.println((srNum++) +" | "+transaction.getTrxStatus()+" | "+transaction.getTrxType()+" | "+transaction.getTrxAmount()+" | "+transaction.getTrxAmount()+" | "+transaction.getDateTime());
-//        }
-//    }
-
     public void showTransactionHistory() {
         int srNum = 1;
 
@@ -55,7 +46,7 @@ public class Account {
                     transaction.getTrxStatus(),
                     transaction.getTrxType(),
                     transaction.getTrxAmount(),
-                    transaction.getRemBal(), // replace with balance if you have it
+                    transaction.getRemBal(),
                     transaction.getDateTime()
             );
         }

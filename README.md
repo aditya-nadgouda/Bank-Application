@@ -1,8 +1,13 @@
 
-# Here we can use classes like 
+# BANK APPLICATION 
+
+### Classes : 
+
 1. Account 
 2. Bank
 3. Driver
+4. Transactions
+5. Utility
 
 --------------
 
@@ -23,9 +28,16 @@ Bank name, IFSC and also have the *Account*
 - And have the multiple behaviours like 
 
 User can create account in bank, delete the account, see the account details, update the details,
-withdraw money, deposit money and can check the Balance.
+withdraw money, deposit money, check the Balance and can see the transactions' history.
 
 3. Driver
  
 This class have the main method from which we can run the application.
 
+4. Transactions class
+
+This class will store the transactions' data.
+
+5. Utility 
+
+This class have the reusable mehtods.
